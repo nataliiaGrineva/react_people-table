@@ -1,0 +1,53 @@
+.add_new_person {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.errorField {
+  border: 1px solid red;
+}
+
+.error_message {
+  height: 20px;
+  color: red;
+}
+
+.fieldSex {
+  width: 20%;
+  height: 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fieldText {
+  width: 30%;
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 5px;
+  outline:none;
+  box-sizing: border-box;
+}
+
+.success_msg_container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.success_msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  font-size: 24px;
+  background-color: rgb(163, 233, 163);
+  border-radius: 5px;
+  color: rgb(34, 35, 36);
+}
