@@ -1,0 +1,22 @@
+.header_nav_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.header_nav_link {
+  line-height: 50px;
+  background-color: rgb(215, 230, 230);
+  border-radius: 5px;
+  color: black;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.header_nav_link__active {
+  background-color: rgb(159, 216, 159);
+}
